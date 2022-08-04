@@ -1,11 +1,8 @@
 name: Hello Marce
 
 on:
-  push:
-    branches:
-      - main # might be `master` for older repos
   repository_dispatch:
-    types: [trigger_deploy]
+    types: [greet]
 
 jobs:
   greet:
