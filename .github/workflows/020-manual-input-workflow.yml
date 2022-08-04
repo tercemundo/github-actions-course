@@ -11,5 +11,5 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-    - name: Send greeting
+    - name: greeting
       run: echo "Hello Marce"
